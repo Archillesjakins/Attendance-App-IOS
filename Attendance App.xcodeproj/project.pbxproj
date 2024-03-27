@@ -10,10 +10,14 @@
 		237B52E82BACC38600CB1F90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237B52E72BACC38600CB1F90 /* AppDelegate.swift */; };
 		237B52EA2BACC38600CB1F90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237B52E92BACC38600CB1F90 /* SceneDelegate.swift */; };
 		237B52EC2BACC38600CB1F90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237B52EB2BACC38600CB1F90 /* ViewController.swift */; };
-		237B52EF2BACC38600CB1F90 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 237B52EE2BACC38600CB1F90 /* Base */; };
 		237B52F22BACC38600CB1F90 /* Attendance_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 237B52F02BACC38600CB1F90 /* Attendance_App.xcdatamodeld */; };
 		237B52F42BACC38A00CB1F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237B52F32BACC38A00CB1F90 /* Assets.xcassets */; };
 		237B52F72BACC38A00CB1F90 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 237B52F62BACC38A00CB1F90 /* Base */; };
+		23D531252BB4CEC900FF96D9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D531242BB4CEC900FF96D9 /* HomeView.swift */; };
+		23D531272BB4CF1300FF96D9 /* PasswordSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D531262BB4CF1300FF96D9 /* PasswordSetupViewController.swift */; };
+		23D531292BB4CF3000FF96D9 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D531282BB4CF3000FF96D9 /* SigninViewController.swift */; };
+		23D5312B2BB4CF5200FF96D9 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D5312A2BB4CF5200FF96D9 /* SignupViewController.swift */; };
+		23D5312D2BB4D01800FF96D9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D5312C2BB4D01800FF96D9 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +25,15 @@
 		237B52E72BACC38600CB1F90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		237B52E92BACC38600CB1F90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		237B52EB2BACC38600CB1F90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		237B52EE2BACC38600CB1F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		237B52F12BACC38600CB1F90 /* Attendance_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Attendance_App.xcdatamodel; sourceTree = "<group>"; };
 		237B52F32BACC38A00CB1F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		237B52F62BACC38A00CB1F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		237B52F82BACC38A00CB1F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23D531242BB4CEC900FF96D9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		23D531262BB4CF1300FF96D9 /* PasswordSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSetupViewController.swift; sourceTree = "<group>"; };
+		23D531282BB4CF3000FF96D9 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		23D5312A2BB4CF5200FF96D9 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		23D5312C2BB4D01800FF96D9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,7 @@
 		237B52DB2BACC38600CB1F90 = {
 			isa = PBXGroup;
 			children = (
+				23D531232BB4CEA600FF96D9 /* controllers */,
 				237B52E62BACC38600CB1F90 /* Attendance App */,
 				237B52E52BACC38600CB1F90 /* Products */,
 			);
@@ -61,13 +70,24 @@
 				237B52E72BACC38600CB1F90 /* AppDelegate.swift */,
 				237B52E92BACC38600CB1F90 /* SceneDelegate.swift */,
 				237B52EB2BACC38600CB1F90 /* ViewController.swift */,
-				237B52ED2BACC38600CB1F90 /* Main.storyboard */,
 				237B52F32BACC38A00CB1F90 /* Assets.xcassets */,
 				237B52F52BACC38A00CB1F90 /* LaunchScreen.storyboard */,
 				237B52F82BACC38A00CB1F90 /* Info.plist */,
 				237B52F02BACC38600CB1F90 /* Attendance_App.xcdatamodeld */,
+				23D5312C2BB4D01800FF96D9 /* User.swift */,
 			);
 			path = "Attendance App";
+			sourceTree = "<group>";
+		};
+		23D531232BB4CEA600FF96D9 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				23D531242BB4CEC900FF96D9 /* HomeView.swift */,
+				23D531262BB4CF1300FF96D9 /* PasswordSetupViewController.swift */,
+				23D531282BB4CF3000FF96D9 /* SigninViewController.swift */,
+				23D5312A2BB4CF5200FF96D9 /* SignupViewController.swift */,
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +150,6 @@
 			files = (
 				237B52F42BACC38A00CB1F90 /* Assets.xcassets in Resources */,
 				237B52F72BACC38A00CB1F90 /* Base in Resources */,
-				237B52EF2BACC38600CB1F90 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +160,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D531292BB4CF3000FF96D9 /* SigninViewController.swift in Sources */,
 				237B52EC2BACC38600CB1F90 /* ViewController.swift in Sources */,
+				23D5312B2BB4CF5200FF96D9 /* SignupViewController.swift in Sources */,
 				237B52E82BACC38600CB1F90 /* AppDelegate.swift in Sources */,
 				237B52F22BACC38600CB1F90 /* Attendance_App.xcdatamodeld in Sources */,
+				23D5312D2BB4D01800FF96D9 /* User.swift in Sources */,
+				23D531252BB4CEC900FF96D9 /* HomeView.swift in Sources */,
 				237B52EA2BACC38600CB1F90 /* SceneDelegate.swift in Sources */,
+				23D531272BB4CF1300FF96D9 /* PasswordSetupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		237B52ED2BACC38600CB1F90 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				237B52EE2BACC38600CB1F90 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		237B52F52BACC38A00CB1F90 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -301,7 +317,6 @@
 				INFOPLIST_FILE = "Attendance App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -329,7 +344,6 @@
 				INFOPLIST_FILE = "Attendance App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
